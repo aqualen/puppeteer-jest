@@ -6,4 +6,5 @@ module.exports = {
         '^.+\\.ts$': 'ts-jest',
     },
     testPathIgnorePatterns: ['/node_modules/', 'dist'],
+    verbose: true,
 };
